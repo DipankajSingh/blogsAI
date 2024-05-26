@@ -3,6 +3,7 @@ import "./globals.css";
 import { Caudex } from 'next/font/google';
 import { Taviraj } from 'next/font/google';
 
+
 const caudex = Caudex({
   weight: '400',
   subsets: ['latin'],
@@ -22,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${caudex.className} ${taviraj.className}  min-h-screen relative flex flex-col`}>{children}</body>
     </html>
   );
 }
