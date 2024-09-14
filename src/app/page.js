@@ -5,7 +5,7 @@ import LotteHero from "./components/client/LotteHero";
 export default function Entry() {
   return (
     <>
-      <div className="flex h-screen flex-col">
+      <div className="flex relative h-screen flex-col">
         <Navbar />
         <Main><LotteHero /></Main>
       </div>
