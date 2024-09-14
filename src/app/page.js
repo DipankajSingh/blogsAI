@@ -4,8 +4,11 @@ import Main from "./components/Main";
 import LotteHero from "./components/client/LotteHero";
 export default function Entry() {
   return (
-    <><Navbar />
-      <Main ><LotteHero /></Main>
+    <>
+      <div className="flex h-screen flex-col">
+        <Navbar />
+        <Main><LotteHero /></Main>
+      </div>
       <Footer /></>
   )
 }

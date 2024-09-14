@@ -7,9 +7,11 @@ export default function LotteHero() {
             autoplay
             background='transparent'
             src="/hero.json"
-            style={{ height: '400px', width: '400px' }}
+            style={{ height: '200px', width: '200px' }}
             loop={true}
-            className='right-1/3 scale-150 relative  z-[-1]'
+            speed={0.3}
+
+            className='relative z-[-1]  scale-[2.5]'
         >
         </Player>
     )
